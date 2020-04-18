@@ -1,0 +1,22 @@
+{
+  "name": "meiko",
+  "version": "1.0.0",
+  "description": "A micro-frontend implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThanoshanMV/container-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThanoshanMV/container-app/issues"
+  },
+  "homepage": "https://github.com/ThanoshanMV/container-app#readme",
+  "dependencies": {
+    "meiko-angular": "^1.0.0-alpha.0"
+  }
+}
