@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meiko</title>
+    <style>
+      #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <h1>Meiko</h1>
+      <iframe id="micro-frontend-container"></iframe>
+      <script type="text/javascript">
+        const microFrontendsByRoute = {
+          '/': 'https://www.sample.com/'
+        };
+        const iframe = document.getElementById('micro-frontend-container');
+        iframe.src = microFrontendsByRoute[window.location.pathname];
+      </script>
+    </main>
+  </body>
+</html>
