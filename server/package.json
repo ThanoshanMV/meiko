@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/99xt-incubator/meiko/issues"
   },
-  "homepage": "https://github.com/99xt-incubator/meiko#readme"
+  "homepage": "https://github.com/99xt-incubator/meiko#readme",
+  "dependencies": {
+    "meiko-angular": "^1.0.0"
+  }
 }
