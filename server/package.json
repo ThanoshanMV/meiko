@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/99xt-incubator/meiko#readme",
   "dependencies": {
+    "awsmeiko-angular": "https://awsmeikobucketsl.s3.ap-south-1.amazonaws.com/awsmeiko-angular-1.0.0.tgz",
     "meiko-angular": "^1.0.0"
   }
 }
