@@ -1,0 +1,26 @@
+{
+  "name": "meiko",
+  "version": "1.0.0",
+  "description": "Entry point app for micro-frontend implementation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99xt-incubator/meiko.git"
+  },
+  "keywords": [
+    "meiko"
+  ],
+  "author": "ThanoshanMV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/99xt-incubator/meiko/issues"
+  },
+  "homepage": "https://github.com/99xt-incubator/meiko#readme",
+  "dependencies": {
+    "awsmeiko-angular": "https://awsmeikobucketsl.s3.ap-south-1.amazonaws.com/awsmeiko-angular-1.0.0.tgz",
+    "meiko-angular": "^1.0.0"
+  }
+}
