@@ -21,11 +21,11 @@ $ npm install
 Run meiko-angular
 
 ```bash
-$ http-server node_modules/awsmeiko-angular/
+$ npm run meiko-angular
 ```
 
 Run meiko!
 
 ```bash
-$ node app.js
+$ npm run meiko
 ```

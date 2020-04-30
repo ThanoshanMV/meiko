@@ -4,7 +4,9 @@
   "description": "Entry point app for micro-frontend implementation",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "meiko": "node app.js",
+    "meiko-angular": "http-server node_modules/awsmeiko-angular/"
   },
   "repository": {
     "type": "git",
