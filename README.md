@@ -21,5 +21,5 @@ $ npm install
 Run meiko!
 
 ```bash
-$ node app.js
+$ npm run meiko
 ```
