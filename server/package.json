@@ -4,7 +4,7 @@
   "description": "Entry point app for micro-frontend implementation",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "dependencies": {
     "awsmeiko-angular": "https://awsmeikobucketsl.s3.ap-south-1.amazonaws.com/awsmeiko-angular-1.0.0.tgz",
     "meiko-angular": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "request": "^2.88.2"
   }
 }
